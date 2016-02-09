@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185009E71C61BE47004E4764 /* Useless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185009E61C61BE47004E4764 /* Useless.swift */; };
+		18B686BD1C5D95E900F94121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B686BC1C5D95E900F94121 /* AppDelegate.swift */; };
+		18B686C11C5D95E900F94121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B686C01C5D95E900F94121 /* Assets.xcassets */; };
+		18B686C41C5D95E900F94121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B686C21C5D95E900F94121 /* Main.storyboard */; };
+		18B686CC1C5D965E00F94121 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B686CB1C5D965E00F94121 /* mapViewController.swift */; };
+		18B686CE1C5D969600F94121 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B686CD1C5D969600F94121 /* Point.swift */; };
+		18B686D51C5D96A700F94121 /* latitude_user1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B686CF1C5D96A700F94121 /* latitude_user1.txt */; };
+		18B686D61C5D96A700F94121 /* latitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B686D01C5D96A700F94121 /* latitude.txt */; };
+		18B686D71C5D96A700F94121 /* latitude1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B686D11C5D96A700F94121 /* latitude1.txt */; };
+		18B686D81C5D96A700F94121 /* longtitude_user1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B686D21C5D96A700F94121 /* longtitude_user1.txt */; };
+		18B686D91C5D96A700F94121 /* longtitude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B686D31C5D96A700F94121 /* longtitude.txt */; };
+		18B686DA1C5D96A700F94121 /* longtitude1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18B686D41C5D96A700F94121 /* longtitude1.txt */; };
+		18C3A5B61C5D9F7200C45ADE /* ODBCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C3A5B51C5D9F7200C45ADE /* ODBCKit.framework */; };
+		18C3A5B71C5D9F7200C45ADE /* ODBCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18C3A5B51C5D9F7200C45ADE /* ODBCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18C3A5B81C5D9F7200C45ADE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18C3A5B71C5D9F7200C45ADE /* ODBCKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		185009E61C61BE47004E4764 /* Useless.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Useless.swift; sourceTree = "<group>"; };
+		18B686B91C5D95E900F94121 /* Beijing Trajectory analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beijing Trajectory analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B686BC1C5D95E900F94121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B686C01C5D95E900F94121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B686C31C5D95E900F94121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B686C51C5D95E900F94121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B686CB1C5D965E00F94121 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		18B686CD1C5D969600F94121 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		18B686CF1C5D96A700F94121 /* latitude_user1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = latitude_user1.txt; sourceTree = "<group>"; };
+		18B686D01C5D96A700F94121 /* latitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = latitude.txt; sourceTree = "<group>"; };
+		18B686D11C5D96A700F94121 /* latitude1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = latitude1.txt; sourceTree = "<group>"; };
+		18B686D21C5D96A700F94121 /* longtitude_user1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = longtitude_user1.txt; sourceTree = "<group>"; };
+		18B686D31C5D96A700F94121 /* longtitude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = longtitude.txt; sourceTree = "<group>"; };
+		18B686D41C5D96A700F94121 /* longtitude1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = longtitude1.txt; sourceTree = "<group>"; };
+		18C3A5B51C5D9F7200C45ADE /* ODBCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ODBCKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B686B61C5D95E900F94121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C3A5B61C5D9F7200C45ADE /* ODBCKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B686B01C5D95E900F94121 = {
+			isa = PBXGroup;
+			children = (
+				18C3A5B51C5D9F7200C45ADE /* ODBCKit.framework */,
+				18B686BB1C5D95E900F94121 /* Beijing Trajectory analysis */,
+				18B686BA1C5D95E900F94121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B686BA1C5D95E900F94121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B686B91C5D95E900F94121 /* Beijing Trajectory analysis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B686BB1C5D95E900F94121 /* Beijing Trajectory analysis */ = {
+			isa = PBXGroup;
+			children = (
+				18B686BC1C5D95E900F94121 /* AppDelegate.swift */,
+				18B686CD1C5D969600F94121 /* Point.swift */,
+				18B686CB1C5D965E00F94121 /* mapViewController.swift */,
+				185009E61C61BE47004E4764 /* Useless.swift */,
+				18B686C01C5D95E900F94121 /* Assets.xcassets */,
+				18B686C21C5D95E900F94121 /* Main.storyboard */,
+				18B686C51C5D95E900F94121 /* Info.plist */,
+				18B686DB1C5D96AF00F94121 /* Data */,
+			);
+			path = "Beijing Trajectory analysis";
+			sourceTree = "<group>";
+		};
+		18B686DB1C5D96AF00F94121 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				18B686CF1C5D96A700F94121 /* latitude_user1.txt */,
+				18B686D01C5D96A700F94121 /* latitude.txt */,
+				18B686D11C5D96A700F94121 /* latitude1.txt */,
+				18B686D21C5D96A700F94121 /* longtitude_user1.txt */,
+				18B686D31C5D96A700F94121 /* longtitude.txt */,
+				18B686D41C5D96A700F94121 /* longtitude1.txt */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B686B81C5D95E900F94121 /* Beijing Trajectory analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B686C81C5D95E900F94121 /* Build configuration list for PBXNativeTarget "Beijing Trajectory analysis" */;
+			buildPhases = (
+				18B686B51C5D95E900F94121 /* Sources */,
+				18B686B61C5D95E900F94121 /* Frameworks */,
+				18B686B71C5D95E900F94121 /* Resources */,
+				18C3A5B81C5D9F7200C45ADE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beijing Trajectory analysis";
+			productName = "Beijing Trajectory analysis";
+			productReference = 18B686B91C5D95E900F94121 /* Beijing Trajectory analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B686B11C5D95E900F94121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "D-Matrix";
+				TargetAttributes = {
+					18B686B81C5D95E900F94121 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 18B686B41C5D95E900F94121 /* Build configuration list for PBXProject "Beijing Trajectory analysis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B686B01C5D95E900F94121;
+			productRefGroup = 18B686BA1C5D95E900F94121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B686B81C5D95E900F94121 /* Beijing Trajectory analysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B686B71C5D95E900F94121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B686C11C5D95E900F94121 /* Assets.xcassets in Resources */,
+				18B686C41C5D95E900F94121 /* Main.storyboard in Resources */,
+				18B686D61C5D96A700F94121 /* latitude.txt in Resources */,
+				18B686D51C5D96A700F94121 /* latitude_user1.txt in Resources */,
+				18B686D81C5D96A700F94121 /* longtitude_user1.txt in Resources */,
+				18B686DA1C5D96A700F94121 /* longtitude1.txt in Resources */,
+				18B686D71C5D96A700F94121 /* latitude1.txt in Resources */,
+				18B686D91C5D96A700F94121 /* longtitude.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B686B51C5D95E900F94121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185009E71C61BE47004E4764 /* Useless.swift in Sources */,
+				18B686CE1C5D969600F94121 /* Point.swift in Sources */,
+				18B686CC1C5D965E00F94121 /* mapViewController.swift in Sources */,
+				18B686BD1C5D95E900F94121 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18B686C21C5D95E900F94121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B686C31C5D95E900F94121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B686C61C5D95E900F94121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B686C71C5D95E900F94121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18B686C91C5D95E900F94121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					/Library/Frameworks/PGSQLKit.framework,
+				);
+				INFOPLIST_FILE = "Beijing Trajectory analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "D-Matrix.Haoyu-Lin.Beijing-Trajectory-analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B686CA1C5D95E900F94121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+					/Library/Frameworks/PGSQLKit.framework,
+				);
+				INFOPLIST_FILE = "Beijing Trajectory analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "D-Matrix.Haoyu-Lin.Beijing-Trajectory-analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B686B41C5D95E900F94121 /* Build configuration list for PBXProject "Beijing Trajectory analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B686C61C5D95E900F94121 /* Debug */,
+				18B686C71C5D95E900F94121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B686C81C5D95E900F94121 /* Build configuration list for PBXNativeTarget "Beijing Trajectory analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B686C91C5D95E900F94121 /* Debug */,
+				18B686CA1C5D95E900F94121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B686B11C5D95E900F94121 /* Project object */;
+}

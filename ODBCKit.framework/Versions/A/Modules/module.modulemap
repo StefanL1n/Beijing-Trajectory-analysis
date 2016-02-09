@@ -1,0 +1,6 @@
+framework module ODBCKit {
+  umbrella header "ODBCKit.h"
+
+  export *
+  module * { export * }
+}
